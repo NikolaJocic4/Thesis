@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'ISOCT3';
+    src: url('../Fonts/ISOCT3.ttf') format('truetype');
+    /* Add additional font formats if available (e.g., woff2, ttf) */
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Inter.ttc') format('ttc');
+    /* Add additional font formats if available (e.g., woff2, ttf) */
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar-container {
+    position: absolute;
+    width: 100%;
+    z-index: 1000; /* Ensure it's on top of other content */
+    padding: 0 100px; /* Adjust the padding as needed */
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-nav.ms-auto .nav-item {
+    margin-left: 150px; /* Additional space between links on the right side */
+    font-family: 'ISOCT3', sans-serif; /* Apply the ISOCT3 font */
+    font-weight: 600;
+}
+
+.image-container {
+    position: relative;
+    height: 95vh; /* Set the height to 100% of the viewport height */
+    background-image: url('../Images/Index_banner.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-black {
+    position: absolute;
+    top: 25%; /* Adjust the vertical position for the black text */
+    text-align: center; /* Center the text horizontally */
+    color: black;
+    margin: 0; /* Reset margin */
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.text-white {
+    position: absolute;
+    top: 35%; /* Adjust the vertical position for the white text */
+    text-align: center; /* Center the text horizontally */
+    color: white;
+    margin: 0; /* Reset margin */
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.free-trial-button {
+    position: absolute;
+    top: 55%; /* Adjust the vertical position for the white text */
+    background-color: #4C7242;
+    border: none; /* Remove default button border */
+    border-radius: 17px;
+    color: white;
+    padding: 12px 60px; /* Adjust padding as needed for a wider button */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 700; /* Bigger font weight */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.free-trial-button:hover {
+    background-color: #3a5f31; /* Darken the background color on hover */
+}
+
+.learn-more-button {
+    position: absolute;
+    top: 62%; /* Adjust the vertical position for the white text */
+    background-color: white;
+    border: none; /* Remove default button border */
+    border-radius: 17px;
+    color: black;
+    padding: 12px 51px; /* Adjust padding as needed for a wider button */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 700; /* Bigger font weight */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.learn-more-button:hover {
+    background-color: #f2f2f2; /* Lighten the background color on hover */
+    color: #333333; /* Darken the text color on hover */
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-top: 120px; /* Add padding on top to create distance from the image container */
+    position: relative; /* Set position relative for the line */
+}
+
+.heading {
+    border-bottom: 4px solid black; /* Add border on the bottom */
+    padding-bottom: 10px; /* Add space below the text */
+    text-align: center; /* Center align the text */
+}
+
+.container {
+    padding-top: 120px;
+    display: flex;
+    width: 70%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 20px; /* Add padding around each column */
+    text-align: center; /* Center align the content */
+}
+
+.column img {
+    max-width: 100%; /* Ensure images don't exceed column width */
+}
+
+.column h2 {
+    margin-top: 10px; /* Add space between image and title */
+    margin-bottom: 5px; /* Add space between title and paragraph */
+}

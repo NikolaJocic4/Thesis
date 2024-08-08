@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Dropdowns</title>
+</head>
+<body>
+    <div>
+        <label for="inputField">Position (Coded):</label>
+        <input type="text" id="inputField" name="inputField">
+    </div>
+    <br>
+    <div>
+        <label for="dropdown1">Statistic one:</label>
+<select id="dropdown1" name="dropdown1" size="5" style="overflow-y: auto;">
+    <option value="Rk">Rk</option>
+    <option value="Player">Player</option>
+    <option value="Nation">Nation</option>
+    <option value="Pos">Pos</option>
+    <option value="Squad">Squad</option>
+    <option value="Comp">Comp</option>
+    <option value="Age">Age</option>
+    <option value="Born">Born</option>
+    <option value="MP">MP</option>
+    <option value="Starts">Starts</option>
+    <option value="Min">Min</option>
+    <option value="90s">90s</option>
+    <option value="Goals">Goals</option>
+    <option value="Shots">Shots</option>
+    <option value="SoT">SoT</option>
+    <option value="SoT%">SoT%</option>
+    <option value="G/Sh">G/Sh</option>
+    <option value="G/SoT">G/SoT</option>
+    <option value="ShoDist">ShoDist</option>
+    <option value="ShoFK">ShoFK</option>
+    <option value="ShoPK">ShoPK</option>
+    <option value="PKatt">PKatt</option>
+    <option value="PasTotCmp">PasTotCmp</option>
+    <option value="PasTotAtt">PasTotAtt</option>
+    <option value="PasTotCmp%">PasTotCmp%</option>
+    <option value="PasTotDist">PasTotDist</option>
+    <option value="PasTotPrgDist">PasTotPrgDist</option>
+    <option value="PasShoCmp">PasShoCmp</option>
+    <option value="PasShoAtt">PasShoAtt</option>
+    <option value="PasShoCmp%">PasShoCmp%</option>
+    <option value="PasMedCmp">PasMedCmp</option>
+    <option value="PasMedAtt">PasMedAtt</option>
+    <option value="PasMedCmp%">PasMedCmp%</option>
+    <option value="PasLonCmp">PasLonCmp</option>
+    <option value="PasLonAtt">PasLonAtt</option>
+    <option value="PasLonCmp%">PasLonCmp%</option>
+    <option value="Assists">Assists</option>
+    <option value="PasAss">PasAss</option>
+    <option value="Pas3rd">Pas3rd</option>
+    <option value="PPA">PPA</option>
+    <option value="CrsPA">CrsPA</option>
+    <option value="PasProg">PasProg</option>
+    <option value="PasAtt">PasAtt</option>
+    <option value="PasLive">PasLive</option>
+    <option value="PasDead">PasDead</option>
+    <option value="PasFK">PasFK</option>
+    <option value="TB">TB</option>
+    <option value="Sw">Sw</option>
+    <option value="PasCrs">PasCrs</option>
+    <option value="TI">TI</option>
+    <option value="CK">CK</option>
+    <option value="CkIn">CkIn</option>
+    <option value="CkOut">CkOut</option>
+    <option value="CkStr">CkStr</option>
+    <option value="PasCmp">PasCmp</option>
+    <option value="PasOff">PasOff</option>
+    <option value="PasBlocks">PasBlocks</option>
+    <option value="SCA">SCA</option>
+    <option value="ScaPassLive">ScaPassLive</option>
+    <option value="ScaPassDead">ScaPassDead</option>
+    <option value="ScaDrib">ScaDrib</option>
+    <option value="ScaSh">ScaSh</option>
+    <option value="ScaFld">ScaFld</option>
+    <option value="ScaDef">ScaDef</option>
+    <option value="GCA">GCA</option>
+    <option value="GcaPassLive">GcaPassLive</option>
+    <option value="GcaPassDead">GcaPassDead</option>
+    <option value="GcaDrib">GcaDrib</option>
+    <option value="GcaSh">GcaSh</option>
+    <option value="GcaFld">GcaFld</option>
+    <option value="GcaDef">GcaDef</option>
+    <option value="Tkl">Tkl</option>
+    <option value="TklWon">TklWon</option>
+    <option value="TklDef3rd">TklDef3rd</option>
+    <option value="TklMid3rd">TklMid3rd</option>
+    <option value="TklAtt3rd">TklAtt3rd</option>
+    <option value="TklDri">TklDri</option>
+    <option value="TklDriAtt">TklDriAtt</option>
+    <option value="TklDri%">TklDri%</option>
+    <option value="TklDriPast">TklDriPast</option>
+    <option value="Blocks">Blocks</option>
+    <option value="BlkSh">BlkSh</option>
+    <option value="BlkPass">BlkPass</option>
+    <option value="Int">Int</option>
+    <option value="Tkl+Int">Tkl+Int</option>
+    <option value="Clr">Clr</option>
+    <option value="Err">Err</option>
+    <option value="Touches">Touches</option>
+    <option value="TouDefPen">TouDefPen</option>
+    <option value="TouDef3rd">TouDef3rd</option>
+    <option value="TouMid3rd">TouMid3rd</option>
+    <option value="TouAtt3rd">TouAtt3rd</option>
+    <option value="TouAttPen">TouAttPen</option>
+    <option value="TouLive">TouLive</option>
+    <option value="ToAtt">ToAtt</option>
+    <option value="ToSuc">ToSuc</option>
+    <option value="ToSuc%">ToSuc%</option>
+    <option value="ToTkl">ToTkl</option>
+    <option value="ToTkl%">ToTkl%</option>
+    <option value="Carries">Carries</option>
+    <option value="CarTotDist">CarTotDist</option>
+    <option value="CarPrgDist">CarPrgDist</option>
+    <option value="CarProg">CarProg</option>
+    <option value="Car3rd">Car3rd</option>
+    <option value="CPA">CPA</option>
+    <option value="CarMis">CarMis</option>
+    <option value="CarDis">CarDis</option>
+    <option value="Rec">Rec</option>
+    <option value="RecProg">RecProg</option>
+    <option value="CrdY">CrdY</option>
+    <option value="CrdR">CrdR</option>
+    <option value="2CrdY">2CrdY</option>
+    <option value="Fls">Fls</option>
+    <option value="Fld">Fld</option>
+    <option value="Off">Off</option>
+    <option value="Crs">Crs</option>
+    <option value="TklW">TklW</option>
+    <option value="PKwon">PKwon</option>
+    <option value="PKcon">PKcon</option>
+    <option value="OG">OG</option>
+    <option value="Recov">Recov</option>
+    <option value="AerWon">AerWon</option>
+    <option value="AerLost">AerLost</option>
+    <option value="AerWon%">AerWon%</option>
+</select>
+        <input type="text" id="text1" name="text1">
+
+    </div>
+    <div>
+        <br>
+        <label for="dropdown2">Statistic two:</label>
+<select id="dropdown2" name="dropdown2" size="5" style="overflow-y: auto;">
+    <option value="Rk">Rk</option>
+    <option value="Player">Player</option>
+    <option value="Nation">Nation</option>
+    <option value="Pos">Pos</option>
+    <option value="Squad">Squad</option>
+    <option value="Comp">Comp</option>
+    <option value="Age">Age</option>
+    <option value="Born">Born</option>
+    <option value="MP">MP</option>
+    <option value="Starts">Starts</option>
+    <option value="Min">Min</option>
+    <option value="90s">90s</option>
+    <option value="Goals">Goals</option>
+    <option value="Shots">Shots</option>
+    <option value="SoT">SoT</option>
+    <option value="SoT%">SoT%</option>
+    <option value="G/Sh">G/Sh</option>
+    <option value="G/SoT">G/SoT</option>
+    <option value="ShoDist">ShoDist</option>
+    <option value="ShoFK">ShoFK</option>
+    <option value="ShoPK">ShoPK</option>
+    <option value="PKatt">PKatt</option>
+    <option value="PasTotCmp">PasTotCmp</option>
+    <option value="PasTotAtt">PasTotAtt</option>
+    <option value="PasTotCmp%">PasTotCmp%</option>
+    <option value="PasTotDist">PasTotDist</option>
+    <option value="PasTotPrgDist">PasTotPrgDist</option>
+    <option value="PasShoCmp">PasShoCmp</option>
+    <option value="PasShoAtt">PasShoAtt</option>
+    <option value="PasShoCmp%">PasShoCmp%</option>
+    <option value="PasMedCmp">PasMedCmp</option>
+    <option value="PasMedAtt">PasMedAtt</option>
+    <option value="PasMedCmp%">PasMedCmp%</option>
+    <option value="PasLonCmp">PasLonCmp</option>
+    <option value="PasLonAtt">PasLonAtt</option>
+    <option value="PasLonCmp%">PasLonCmp%</option>
+    <option value="Assists">Assists</option>
+    <option value="PasAss">PasAss</option>
+    <option value="Pas3rd">Pas3rd</option>
+    <option value="PPA">PPA</option>
+    <option value="CrsPA">CrsPA</option>
+    <option value="PasProg">PasProg</option>
+    <option value="PasAtt">PasAtt</option>
+    <option value="PasLive">PasLive</option>
+    <option value="PasDead">PasDead</option>
+    <option value="PasFK">PasFK</option>
+    <option value="TB">TB</option>
+    <option value="Sw">Sw</option>
+    <option value="PasCrs">PasCrs</option>
+    <option value="TI">TI</option>
+    <option value="CK">CK</option>
+    <option value="CkIn">CkIn</option>
+    <option value="CkOut">CkOut</option>
+    <option value="CkStr">CkStr</option>
+    <option value="PasCmp">PasCmp</option>
+    <option value="PasOff">PasOff</option>
+    <option value="PasBlocks">PasBlocks</option>
+    <option value="SCA">SCA</option>
+    <option value="ScaPassLive">ScaPassLive</option>
+    <option value="ScaPassDead">ScaPassDead</option>
+    <option value="ScaDrib">ScaDrib</option>
+    <option value="ScaSh">ScaSh</option>
+    <option value="ScaFld">ScaFld</option>
+    <option value="ScaDef">ScaDef</option>
+    <option value="GCA">GCA</option>
+    <option value="GcaPassLive">GcaPassLive</option>
+    <option value="GcaPassDead">GcaPassDead</option>
+    <option value="GcaDrib">GcaDrib</option>
+    <option value="GcaSh">GcaSh</option>
+    <option value="GcaFld">GcaFld</option>
+    <option value="GcaDef">GcaDef</option>
+    <option value="Tkl">Tkl</option>
+    <option value="TklWon">TklWon</option>
+    <option value="TklDef3rd">TklDef3rd</option>
+    <option value="TklMid3rd">TklMid3rd</option>
+    <option value="TklAtt3rd">TklAtt3rd</option>
+    <option value="TklDri">TklDri</option>
+    <option value="TklDriAtt">TklDriAtt</option>
+    <option value="TklDri%">TklDri%</option>
+    <option value="TklDriPast">TklDriPast</option>
+    <option value="Blocks">Blocks</option>
+    <option value="BlkSh">BlkSh</option>
+    <option value="BlkPass">BlkPass</option>
+    <option value="Int">Int</option>
+    <option value="Tkl+Int">Tkl+Int</option>
+    <option value="Clr">Clr</option>
+    <option value="Err">Err</option>
+    <option value="Touches">Touches</option>
+    <option value="TouDefPen">TouDefPen</option>
+    <option value="TouDef3rd">TouDef3rd</option>
+    <option value="TouMid3rd">TouMid3rd</option>
+    <option value="TouAtt3rd">TouAtt3rd</option>
+    <option value="TouAttPen">TouAttPen</option>
+    <option value="TouLive">TouLive</option>
+    <option value="ToAtt">ToAtt</option>
+    <option value="ToSuc">ToSuc</option>
+    <option value="ToSuc%">ToSuc%</option>
+    <option value="ToTkl">ToTkl</option>
+    <option value="ToTkl%">ToTkl%</option>
+    <option value="Carries">Carries</option>
+    <option value="CarTotDist">CarTotDist</option>
+    <option value="CarPrgDist">CarPrgDist</option>
+    <option value="CarProg">CarProg</option>
+    <option value="Car3rd">Car3rd</option>
+    <option value="CPA">CPA</option>
+    <option value="CarMis">CarMis</option>
+    <option value="CarDis">CarDis</option>
+    <option value="Rec">Rec</option>
+    <option value="RecProg">RecProg</option>
+    <option value="CrdY">CrdY</option>
+    <option value="CrdR">CrdR</option>
+    <option value="2CrdY">2CrdY</option>
+    <option value="Fls">Fls</option>
+    <option value="Fld">Fld</option>
+    <option value="Off">Off</option>
+    <option value="Crs">Crs</option>
+    <option value="TklW">TklW</option>
+    <option value="PKwon">PKwon</option>
+    <option value="PKcon">PKcon</option>
+    <option value="OG">OG</option>
+    <option value="Recov">Recov</option>
+    <option value="AerWon">AerWon</option>
+    <option value="AerLost">AerLost</option>
+    <option value="AerWon%">AerWon%</option>
+</select>
+<input type="text" id="text2" name="text2">
+
+    </div>
+    <div>
+        <br>
+        <label for="dropdown3">Statistic three:</label>
+<select id="dropdown3" name="dropdown3" size="5" style="overflow-y: auto;">
+    <option value="Rk">Rk</option>
+    <option value="Player">Player</option>
+    <option value="Nation">Nation</option>
+    <option value="Pos">Pos</option>
+    <option value="Squad">Squad</option>
+    <option value="Comp">Comp</option>
+    <option value="Age">Age</option>
+    <option value="Born">Born</option>
+    <option value="MP">MP</option>
+    <option value="Starts">Starts</option>
+    <option value="Min">Min</option>
+    <option value="90s">90s</option>
+    <option value="Goals">Goals</option>
+    <option value="Shots">Shots</option>
+    <option value="SoT">SoT</option>
+    <option value="SoT%">SoT%</option>
+    <option value="G/Sh">G/Sh</option>
+    <option value="G/SoT">G/SoT</option>
+    <option value="ShoDist">ShoDist</option>
+    <option value="ShoFK">ShoFK</option>
+    <option value="ShoPK">ShoPK</option>
+    <option value="PKatt">PKatt</option>
+    <option value="PasTotCmp">PasTotCmp</option>
+    <option value="PasTotAtt">PasTotAtt</option>
+    <option value="PasTotCmp%">PasTotCmp%</option>
+    <option value="PasTotDist">PasTotDist</option>
+    <option value="PasTotPrgDist">PasTotPrgDist</option>
+    <option value="PasShoCmp">PasShoCmp</option>
+    <option value="PasShoAtt">PasShoAtt</option>
+    <option value="PasShoCmp%">PasShoCmp%</option>
+    <option value="PasMedCmp">PasMedCmp</option>
+    <option value="PasMedAtt">PasMedAtt</option>
+    <option value="PasMedCmp%">PasMedCmp%</option>
+    <option value="PasLonCmp">PasLonCmp</option>
+    <option value="PasLonAtt">PasLonAtt</option>
+    <option value="PasLonCmp%">PasLonCmp%</option>
+    <option value="Assists">Assists</option>
+    <option value="PasAss">PasAss</option>
+    <option value="Pas3rd">Pas3rd</option>
+    <option value="PPA">PPA</option>
+    <option value="CrsPA">CrsPA</option>
+    <option value="PasProg">PasProg</option>
+    <option value="PasAtt">PasAtt</option>
+    <option value="PasLive">PasLive</option>
+    <option value="PasDead">PasDead</option>
+    <option value="PasFK">PasFK</option>
+    <option value="TB">TB</option>
+    <option value="Sw">Sw</option>
+    <option value="PasCrs">PasCrs</option>
+    <option value="TI">TI</option>
+    <option value="CK">CK</option>
+    <option value="CkIn">CkIn</option>
+    <option value="CkOut">CkOut</option>
+    <option value="CkStr">CkStr</option>
+    <option value="PasCmp">PasCmp</option>
+    <option value="PasOff">PasOff</option>
+    <option value="PasBlocks">PasBlocks</option>
+    <option value="SCA">SCA</option>
+    <option value="ScaPassLive">ScaPassLive</option>
+    <option value="ScaPassDead">ScaPassDead</option>
+    <option value="ScaDrib">ScaDrib</option>
+    <option value="ScaSh">ScaSh</option>
+    <option value="ScaFld">ScaFld</option>
+    <option value="ScaDef">ScaDef</option>
+    <option value="GCA">GCA</option>
+    <option value="GcaPassLive">GcaPassLive</option>
+    <option value="GcaPassDead">GcaPassDead</option>
+    <option value="GcaDrib">GcaDrib</option>
+    <option value="GcaSh">GcaSh</option>
+    <option value="GcaFld">GcaFld</option>
+    <option value="GcaDef">GcaDef</option>
+    <option value="Tkl">Tkl</option>
+    <option value="TklWon">TklWon</option>
+    <option value="TklDef3rd">TklDef3rd</option>
+    <option value="TklMid3rd">TklMid3rd</option>
+    <option value="TklAtt3rd">TklAtt3rd</option>
+    <option value="TklDri">TklDri</option>
+    <option value="TklDriAtt">TklDriAtt</option>
+    <option value="TklDri%">TklDri%</option>
+    <option value="TklDriPast">TklDriPast</option>
+    <option value="Blocks">Blocks</option>
+    <option value="BlkSh">BlkSh</option>
+    <option value="BlkPass">BlkPass</option>
+    <option value="Int">Int</option>
+    <option value="Tkl+Int">Tkl+Int</option>
+    <option value="Clr">Clr</option>
+    <option value="Err">Err</option>
+    <option value="Touches">Touches</option>
+    <option value="TouDefPen">TouDefPen</option>
+    <option value="TouDef3rd">TouDef3rd</option>
+    <option value="TouMid3rd">TouMid3rd</option>
+    <option value="TouAtt3rd">TouAtt3rd</option>
+    <option value="TouAttPen">TouAttPen</option>
+    <option value="TouLive">TouLive</option>
+    <option value="ToAtt">ToAtt</option>
+    <option value="ToSuc">ToSuc</option>
+    <option value="ToSuc%">ToSuc%</option>
+    <option value="ToTkl">ToTkl</option>
+    <option value="ToTkl%">ToTkl%</option>
+    <option value="Carries">Carries</option>
+    <option value="CarTotDist">CarTotDist</option>
+    <option value="CarPrgDist">CarPrgDist</option>
+    <option value="CarProg">CarProg</option>
+    <option value="Car3rd">Car3rd</option>
+    <option value="CPA">CPA</option>
+    <option value="CarMis">CarMis</option>
+    <option value="CarDis">CarDis</option>
+    <option value="Rec">Rec</option>
+    <option value="RecProg">RecProg</option>
+    <option value="CrdY">CrdY</option>
+    <option value="CrdR">CrdR</option>
+    <option value="2CrdY">2CrdY</option>
+    <option value="Fls">Fls</option>
+    <option value="Fld">Fld</option>
+    <option value="Off">Off</option>
+    <option value="Crs">Crs</option>
+    <option value="TklW">TklW</option>
+    <option value="PKwon">PKwon</option>
+    <option value="PKcon">PKcon</option>
+    <option value="OG">OG</option>
+    <option value="Recov">Recov</option>
+    <option value="AerWon">AerWon</option>
+    <option value="AerLost">AerLost</option>
+    <option value="AerWon%">AerWon%</option>
+</select>
+<input type="text" id="text3" name="text3">
+
+
+    </div>
+    <br>
+    <input type="submit" id="submit" value="Submit">
+
+
+<div id="resultContainer">
+    <!-- Results will be displayed here -->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#submit').click(function() {
+            // Get the selected values from dropdowns and input values
+            var position = $('#inputField').val();     
+            var stat1 = $('#dropdown1').val();
+            var stat1Value = $('#text1').val();
+            var stat2 = $('#dropdown2').val();
+            var stat2Value = $('#text2').val();
+            var stat3 = $('#dropdown3').val();
+            var stat3Value = $('#text3').val();
+
+            // Create form data object
+            var formData = {
+                position: position,
+                stat1: stat1,
+                stat1Value: stat1Value,
+                stat2: stat2,
+                stat2Value: stat2Value,
+                stat3: stat3,
+                stat3Value: stat3Value
+            };
+
+            $.ajax({
+                type: 'POST',
+                url: 'filter.php', // Assuming filter.php is the PHP script handling the AJAX request
+                data: formData,
+                success: function(response) {
+                    $('#resultContainer').html(response);
+                },
+                error: function(xhr, status, error) {
+                    console.error('AJAX error:', error);
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

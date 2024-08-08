@@ -1,0 +1,38 @@
+/*STUFF FOR THE SVG*/
+body {
+    background-color: #000193;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.controls-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 160px;
+  padding: 20px;
+}
+
+.svg-container {
+  padding: 20px;
+}
+
+.viewbox {
+  filter: drop-shadow(30px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.flex-input {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.results {
+  width: 100px;
+  color: white;
+}
+
+/*END OF STUFF FOR THE SVG*/
